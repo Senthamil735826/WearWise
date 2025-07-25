@@ -39,6 +39,7 @@ body {
     margin: -18% 0% 0% 13%;
     z-index: 2;
     width: 300px;
+    left: -25px;
 }
 
 .centerline {
@@ -102,17 +103,21 @@ li {
     background-color: #191919;
 
 }
+
 .login {
     position: relative;
-    margin-left: 65%;
+    margin-left: 70%;
     border-style: inset;
     box-shadow: 5px 5px 23px black;
-    background-color: transparent;
-    border-radius: 8px;
+    background: #ffffff0f;
+    overflow: hidden;
+    border-radius: 32px;
     height: 500px;
-    width: 450px;
+    width: 400px;
     margin-top: -5%;
     align-items: center;
+    
+    
 }
 
 .lhead {
@@ -128,6 +133,7 @@ li {
     justify-content: center;
     gap: 25px;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .licon {
@@ -137,12 +143,69 @@ li {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.licon:hover{
-    background-color: white;
+.licon:hover {
+    background-color:  #60519b;
 }
 
-.licon:active{
-    background-color: black;
-    color: white;
+.licon:active {
+    background-color: rgb(255, 255, 255);
 }
 
+.wform {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    left: 15%;
+    margin-top: 20px;
+}
+
+.logintextbar {
+    margin-top: 0px;
+    top: 0px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 8px;
+    left: 30%;
+    background-color: #60519b;
+
+}
+.logintextbar:hover{
+    background-color: #ffffff;
+}
+
+.submit{
+    width: 100px;
+    border-radius: 8px;
+    border-style: inset;
+    height: 40px;
+    top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #ffffff0f;
+    color: black;
+}
+
+.submit:active{
+    background-color: rgb(0, 0, 0);
+    color:#ffffff;
+}
+
+
+
+/*.flable{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    left: 0px;
+}
+    <label class="flable" for="Name">First name:</label>
+    <label class="flable" for="Name">Last name:</label>
+    <label class="flable" for="Email">Enter Your Email:</label>
+    <label class="flable" for="Password">Enter Your Password:</label>
+*/
