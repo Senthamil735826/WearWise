@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 
@@ -12,14 +13,39 @@
     background-repeat: no-repeat;
     background-size: cover;*/
     height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+
+
+
+}
+
+html {
+    min-height: 100%;
+    width: 1530px;
+    overflow-x: hidden;
+
+
+
 }
 
 body {
-    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: row;
+
+
 }
 
 .mimg {
     display: flex;
+    flex-direction: row;
     position: relative;
     top: 50%;
     align-items: flex-start;
@@ -49,7 +75,7 @@ body {
     height: 750px;
     left: 50%;
     width: 1px;
-    background: #191919;
+    background: #00000000;
     transform: translateX(-50%);
 }
 
@@ -74,8 +100,8 @@ li {
     color: white;
     border: none;
     border-radius: 8px;
-    height: 40px;
-    width: 135px;
+    height: 50px;
+    width: 145px;
     border-style: outset;
     align-content: center;
     text-align: center;
@@ -116,9 +142,10 @@ li {
     width: 400px;
     margin-top: -5%;
     align-items: center;
-    
-    
 }
+
+
+
 
 .lhead {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -126,8 +153,8 @@ li {
 }
 
 .socialicons {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     display: inline-flex;
     text-align: center;
     justify-content: center;
@@ -144,7 +171,7 @@ li {
 }
 
 .licon:hover {
-    background-color:  #60519b;
+    background-color: #60519b;
 }
 
 .licon:active {
@@ -163,38 +190,48 @@ li {
 }
 
 .logintextbar {
+    position: relative;
+    left: -5%;
     margin-top: 0px;
-    top: 0px;
     padding: 5px;
     height: 40px;
     border-radius: 8px;
-    left: 30%;
     background-color: #60519b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+
 
 }
-.logintextbar:hover{
+
+.logintextbar:hover {
     background-color: #ffffff;
 }
 
-.submit{
+.submit {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     border-radius: 8px;
     border-style: inset;
     height: 40px;
-    top: 30px;
+    top: 10px;
+    left: -5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     cursor: pointer;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: #ffffff0f;
     color: black;
 }
 
-.submit:active{
+.submit:active {
     background-color: rgb(0, 0, 0);
-    color:#ffffff;
+    color: #ffffff;
 }
 
 

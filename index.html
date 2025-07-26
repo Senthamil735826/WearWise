@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wearwise</title>
     <link rel="icon" href="wimg/wlgo2.jpg">
@@ -15,6 +16,8 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Boldonse&family=Josefin+Sans:wght@700&family=Nanum+Myeongjo&display=swap"
             rel="stylesheet">
+
+        
     </div>
 
 </head>
@@ -39,24 +42,22 @@
             </center>
             <center>
                 <div class="socialicons">
-                    <img class="licon" src="socialicons/icons8-apple-50.png" alt="apple" >
+                    <img class="licon" src="socialicons/icons8-apple-50.png" alt="apple">
                     <img class="licon" src="socialicons/icons8-google-50.png" alt="google">
                     <img class="licon" src="socialicons/icons8-facebook-50.png" alt="facebook">
                     <img class="licon" src="socialicons/icons8-microsoft-50.png" alt="microsoft">
                 </div>
             </center>
             <form class="wform">
+                <input class="logintextbar" type="text" placeholder="First name" autocomplete="username" required><br>
 
-                
-                <input class="logintextbar" type="text" placeholder="First name"><br>
-                
-                <input class="logintextbar" type="text" placeholder="Last name"><br>
-                
-                <input class="logintextbar" type="text" placeholder="Enter your E-mail"><br>
-                
-                <input class="logintextbar" type="password" placeholder="Password"><br>
+                <input class="logintextbar" type="text" placeholder="Last name" autocomplete="username"><br>
 
-                <input class="Submit" type="submit" placeholder="Submit" formaction:"">
+                <input class="logintextbar" type="email" placeholder="Enter your E-mail" autocomplete="username" required><br>
+
+                <input class="logintextbar" type="password" placeholder="Password" autocomplete="username" required><br>
+
+                <input class="Submit" type="submit" placeholder="Submit">
             </form>
         </div>
 
