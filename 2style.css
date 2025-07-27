@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.bghome {
+    background-image: url(wimg/upscalemedia-transformed.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 101vh;
+    width: 102%;
+    z-index: 0;
+    position: absolute;
+    z-index: -1;
+    margin: -20px;
+    filter: contrast(80%);
+}
+
+
+ul,
+li {
+    margin: 20px;
+}
+
+
+
+ul {
+    margin-top: 0%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.088);
+
+}
+
+nav {
+    position: relative;
+    top: -50px;
+
+
+}
+
+nav:hover {
+    box-shadow: 0px 5px 20px black;
+    transition-duration: 2s;
+    background-color: rgba(0, 0, 0, 0.745);
+    cursor: pointer;
+}
+
+
+
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.nanum-myeongjo-regular {
+    position: relative;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    left: 8%;
+    top: 50px;
+    right: 30px;
+    padding-top: 10px;
+}
+
+.nanum-myeongjo-regular,
+.navigator,
+.logo {
+    position: relative;
+    display: inline;
+    align-items: center;
+    z-index: 1;
+
+
+
+}
+
+.logo {
+    position: relative;
+    height: 50px;
+    width: 80px;
+    top: 58px;
+    left: -150px;
+}
+
+.navigator {
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 40px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+
+.slogam {
+    position: relative;
+    color: white;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.click-btn {
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 5px;
+    font-family: "Iceberg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+    .click-btn:hover{
+        background-color: rgb(246, 246, 201);
+        transform: scale(1.1);
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .click-btn:active{
+        background-color: black;
+        color: white;
+    }

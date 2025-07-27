@@ -19,18 +19,14 @@
     background-size: cover;
     min-height: 100vh;
     overflow: hidden;
-
-
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 
 html {
     min-height: 100%;
-    width: 1530px;
-    overflow-x: hidden;
-
-
-
+    width: 1513px;
 }
 
 body {
@@ -39,8 +35,6 @@ body {
     min-height: 100vh;
     margin: 0;
     flex-direction: row;
-
-
 }
 
 .mimg {
@@ -49,7 +43,7 @@ body {
     position: relative;
     top: 50%;
     align-items: flex-start;
-    margin-top: -900px;
+    margin-top: -800px;
     z-index: 1;
     transform: translateX(-20%);
     clip-path: inset(30% 35% 30% 35%);
@@ -79,6 +73,9 @@ body {
     transform: translateX(-50%);
 }
 
+
+
+
 .menu,
 li {
     color: rgb(255, 255, 255);
@@ -92,10 +89,13 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 800;
     font-size: 28px;
+    
 }
 
 .signin,
 .getapp {
+    top: -100px;
+    position: relative;
     background-color: transparent;
     color: white;
     border: none;
@@ -111,10 +111,6 @@ li {
 
 
 }
-
-
-
-
 
 .getapp:hover,
 .signin:hover {
@@ -134,13 +130,13 @@ li {
     position: relative;
     margin-left: 70%;
     border-style: inset;
-    box-shadow: 5px 5px 23px black;
+    box-shadow: 5px 5px 23px rgb(0, 0, 0);
     background: #ffffff0f;
     overflow: hidden;
     border-radius: 32px;
     height: 500px;
     width: 400px;
-    margin-top: -5%;
+    margin-top: -180px;
     align-items: center;
 }
 
@@ -230,8 +226,14 @@ li {
 }
 
 .submit:active {
+    
     background-color: rgb(0, 0, 0);
     color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -240,9 +242,18 @@ li {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     left: 0px;
-}
+}   
+    IN HTML{
     <label class="flable" for="Name">First name:</label>
     <label class="flable" for="Name">Last name:</label>
     <label class="flable" for="Email">Enter Your Email:</label>
-    <label class="flable" for="Password">Enter Your Password:</label>
+    <label class="flable" for="Password">Enter Your Password:</label>}
 */
+
+/*-------------------------------------------------------------------------------------HOMEPAGE----------------------------------------------------------------------------------------*/
+
+    
+   
+
+
+
