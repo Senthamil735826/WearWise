@@ -156,7 +156,7 @@ a {
 
 }
 
-br{
+br {
     color: transparent;
 }
 
@@ -220,6 +220,90 @@ br{
 .simg {
     height: 520px;
     width: 520px;
+    margin-bottom: 8%;
 }
 
-footer
+.footer1 {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 650px;
+}
+
+.fheader {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    position: relative;
+
+}
+
+.fline {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fbody{
+    color: white;
+    margin: 2% 10% 10% 10%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    padding-bottom: 50px;
+    position: relative;
+    text-align: center;
+
+}
+
+.flogo{
+     height: 100px;
+    width: 150px;
+    position: relative;
+    left: 45%;
+   top: -20%;
+}
+
+.fname{
+     position: relative;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    top: -20%;
+}
+
+.socialicons {
+    height: 80px;
+    width: 80px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.licon {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.licon:hover {
+    background-color: #60519b;
+}
+
+.licon:active {
+    background-color: rgb(255, 255, 255);
+}
